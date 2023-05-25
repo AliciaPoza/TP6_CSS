@@ -1,0 +1,38 @@
+@media all and (max-width: 1024px){
+    header{
+        display: flex;
+    }
+    nav{
+        display: flex;
+    }
+    ul{
+        display: flex;
+        flex-direction: column ;
+    }
+    #banniere_image{
+        display: none;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    aside{
+        display: flex;
+        flex-direction: column;
+    }
+    #photo_zozor{
+        order: 
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}

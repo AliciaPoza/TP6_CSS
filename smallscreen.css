@@ -3,25 +3,42 @@
         display: flex;
     }
     nav{
-        display: flex;
+        width: auto;
+        text-align: left;
     }
-    ul{
-        display: flex;
+    nav ul{
         flex-direction: column ;
+    }
+    nav li{
+        padding-left: 4px;
+    }
+    nav a{
+        font-size: 1.1em;
+    }
+    nav a:hover{
+        border-bottom: 0;
     }
     #banniere_image{
         display: none;
     }
     section{
-        display: flex;
+        
         flex-direction: column;
     }
-    aside{
-        display: flex;
-        flex-direction: column;
+    article, aside{
+        width: auto;
+        margin-bottom: 15px;
     }
-    #photo_zozor{
-        order: 
+    #photo_zozor img{
+        width: 110px;
+        float: right;
+        margin-left: 15px;
+    }
+    aside p:last-child{
+        text-align: center;
+    }
+    #fleche_bulle{
+        display: none;
     }
 
 
